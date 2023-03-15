@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Cherokee&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+body {
+  margin-top: -1em;
+  margin-left: -1em;
+  margin-right: -0.5em;
+  margin-bottom: -10em;
+  overflow: hidden;
+}
+.title{
+ position: absolute;
+ bottom: 5em;
+ font-size: 100px;
+ font-family: 'Anton', sans-serif;
+ word-spacing: 20px;
+ left: 1.2em;
+ top: 1.5em;
+}
+.sub-title{
+ position: absolute;
+ font-family: 'Noto Sans Cherokee', sans-serif;
+ font-size: 28px;
+ left: 1.8em;
+ top: 18em;
+ text-align:left;
+}
+.hero {
+  background-image: url('/assets/images/1.png') !important;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  padding-top: 57.8em;
+  left: -20em;
+  height: 100%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  overflow: hidden;
+   }
+
+  #container {
+	position: absolute;
+	padding: 10px;
+	top: 80%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 8rem;
+}
+
+button {
+	padding: 10px 40px;
+	cursor: pointer;
+	font-family: "Montserrat", sans-serif;
+	font-size: 20px;
+
+}
+#shadow {
+	border-radius: 10px;
+	border: 2px solid #000;
+	box-shadow: 10px 10px;
+	background-color: #fec89a;
+	transition: box-shadow 300ms ease, transform 500ms ease;
+}
+
+#shadow:hover {
+	box-shadow: none;
+}
+
+#shadow:active {
+	transform: scale(0.9);
+}
