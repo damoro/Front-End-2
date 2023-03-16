@@ -309,7 +309,7 @@ input::placeholder {
   transition: background-color 0.2s ease-in-out;
 }
 .user_options-forms .forms_buttons-action:hover {
-  background-color: white;
+  background-color: blue;
 }
 .user_options-forms .user_forms-signup,
 .user_options-forms .user_forms-login {
