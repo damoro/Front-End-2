@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/partials/header/header.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { LoginPageComponent } from './login-page/login-page.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { LoginPageComponent } from './login-page/login-page.component';
     HeaderComponent,
     HomepageComponent,
     LoginPageComponent,
+    DashboardComponent,
   ],
   imports: [
     BrowserModule,
